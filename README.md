@@ -1,10 +1,13 @@
 
-Register Microsoft Windows Terminal in the context menu of the right mouse button.
+Registers Microsoft Windows Terminal in the context menu of the right mouse button.
 
-Just run setup.py with administrator privilege.
+* Windows Terminal
+* Windows Terminal (Admin)
+
+Just run setup.bat with administrator privilege.
 
 ```
-setup.py
+setup.bat
 ```
 
 [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
