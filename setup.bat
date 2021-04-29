@@ -1,10 +1,10 @@
 @echo on
-xcopy "%~dp0wt.ico" "%LOCALAPPDATA%\Microsoft\WindowsApps\Microsoft.WindowsTerminal_8wekyb3d8bbwe\" /b /v /y /q
-xcopy "%~dp0wt.bat" "%LOCALAPPDATA%\Microsoft\WindowsApps\Microsoft.WindowsTerminal_8wekyb3d8bbwe\" /b /v /y /q
+xcopy "%~dp0wt.ico" "%LOCALAPPDATA%\Microsoft\WindowsApps\" /b /v /y /q
+xcopy "%~dp0wt.bat" "%LOCALAPPDATA%\Microsoft\WindowsApps\" /b /v /y /q
 @echo off
 
-set iconPath="\"%LOCALAPPDATA%\Microsoft\WindowsApps\Microsoft.WindowsTerminal_8wekyb3d8bbwe\wt.ico\""
-set openAdminPath="\"%LOCALAPPDATA%\Microsoft\WindowsApps\Microsoft.WindowsTerminal_8wekyb3d8bbwe\wt.bat\""
+set iconPath="\"%LOCALAPPDATA%\Microsoft\WindowsApps\wt.ico\""
+set openAdminPath="\"%LOCALAPPDATA%\Microsoft\WindowsApps\wt.bat\""
 set openPath="\"%LOCALAPPDATA%\Microsoft\WindowsApps\wt.exe\""
 
 reg.exe add "HKEY_CLASSES_ROOT\Directory\Background\shell\WindowsTerminal" /f /v "Icon" /d "%iconPath%"
