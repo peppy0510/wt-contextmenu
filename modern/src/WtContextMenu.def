@@ -1,0 +1,4 @@
+LIBRARY WtContextMenu
+EXPORTS
+    DllGetClassObject PRIVATE
+    DllCanUnloadNow PRIVATE
