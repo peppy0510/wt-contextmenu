@@ -1,0 +1,4 @@
+LIBRARY BdzContextMenu
+EXPORTS
+    DllGetClassObject PRIVATE
+    DllCanUnloadNow PRIVATE
